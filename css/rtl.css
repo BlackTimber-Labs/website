@@ -1,0 +1,123 @@
+.rtl img.flag-lang {
+    margin-left: 3px;
+    margin-right: 0;
+}
+.rtl .ct-topbar-layout1 .ct-topbar-meta i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+.rtl .ct-topbar-layout1 .ct-topbar-meta .ct-topbar-item+.ct-topbar-item {
+    padding-left: 0;
+    padding-right: 38px;
+    margin-left: 0;
+    margin-right: 44px;
+}
+.rtl .ct-topbar-item+.ct-topbar-item:before {
+	display: none;
+}
+.rtl header.header-niva #navbarNiva li.nav-item a {
+    font-size: 16px;
+    padding: 5px 12px;
+    text-align: right;
+}
+.rtl .slider-content {
+    text-align: right;
+}
+.rtl .slider-content h2 {
+    left: auto;
+    right: -40%;
+}
+.rtl .left-side {
+    text-align: right;
+}
+.rtl .exp-about {
+    text-align: right;
+}
+.rtl .about-section .col-md-5 {
+    text-align: right;
+}
+.rtl .portfolio-section {
+    text-align: right;
+}
+.rtl .project-popup {
+    text-align: right;
+}
+.rtl blockquote.testimonial-slide {
+    text-align: right;
+}
+.rtl .blog-section .blog_custom .post-categories {
+    left: auto;
+    right: 15px;
+}
+.rtl .blog-section .blog_custom .post-details {
+    text-align: right;
+}
+.rtl span.post-date {
+    display: none !important;
+}
+.rtl .footer-section .footer-wrapper .col-lg-6 {
+    text-align: right;
+}
+.rtl .service-box-parent {
+    text-align: right;
+}
+.rtl .members-section .niva-team {
+    text-align: right;
+}
+.rtl .about-us .col-md-7 {
+    text-align: right;
+}
+.rtl .members-section h3.members-heading1 {
+    text-align: right;
+}
+.rtl header.header-niva #navbarNiva li.nav-item .dropdown-menu {
+    left: auto;
+}
+.rtl header.header-niva #navbarNiva li.nav-item .dropdown-menu::before {
+    left: inherit;
+    right: 30px;
+}
+.rtl .portfolio-section-filters {
+    text-align: right;
+}
+.rtl .project-content {
+    text-align: right;
+}
+.rtl .project-content h2, .project-content h4 {
+    text-align: right;
+}
+.rtl .blog-page-section .widget_element {
+    text-align: right;
+}
+
+.rtl .blog-page-section p.html-widget-paragraph {
+    text-align: right;
+}
+.rtl .blog-page-section .post-excerpt p {
+    text-align: right;
+}
+.rtl .blog-page-section .post-body p {
+    text-align: right;
+}
+.rtl .post-body blockquote footer {
+    text-align: right;
+}
+.rtl .contant-section-page .contact-element {
+    text-align: right;
+}
+.rtl .contant-section-page .icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.rtl .iframe-contact h3 {
+    text-align: right;
+}
+.rtl .iframe-contact .form-group {
+    text-align: right;
+}
+.rtl .iframe-contact form {
+    text-align: right;
+}
+.rtl .page-content {
+    text-align: right;
+}
