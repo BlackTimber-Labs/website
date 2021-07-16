@@ -6,13 +6,13 @@
     	/*==============================
 		Menu
 		==============================*/
-		$('.header__btn__venor').on('click', function() {
+		$('.header__btn__blacklabs').on('click', function() {
 			$(this).toggleClass('header__btn--active');
-			$('.header__menu__venor').toggleClass('header__menu__venor--active');
+			$('.header__menu__blacklabs').toggleClass('header__menu__blacklabs--active');
 		});
 
-		$('.header__search__venor .close, .header__action--search button').on('click', function() {
-			$('.header__search__venor').toggleClass('header__search--active');
+		$('.header__search__blacklabs .close, .header__action--search button').on('click', function() {
+			$('.header__search__blacklabs').toggleClass('header__search--active');
 		});
 
 		/*==============================
@@ -32,7 +32,7 @@
     	
     	/* HOME SLIDE */
     	$(window).on("load", function() {
-		    $('body:not(.rtl) .slider-venor').owlCarousel({
+		    $('body:not(.rtl) .slider-blacklabs').owlCarousel({
 			 	loop: false,
 				rewind: true,
 			    margin: 10,
@@ -61,7 +61,7 @@
 
 	    /* HOME SLIDE */
     	$(window).on("load", function() {
-		    $('body.rtl .slider-venor').owlCarousel({
+		    $('body.rtl .slider-blacklabs').owlCarousel({
 			 	loop: false,
 				rewind: true,
 			 	rtl:true,
@@ -332,11 +332,11 @@
                 type:"GET",
                 data:{'project':query},
                 beforeSend: function() {
-	                $('.header__search__venor button i').removeClass('fa-search').addClass('fa-spinner fa-spin');    
+	                $('.header__search__blacklabs button i').removeClass('fa-search').addClass('fa-spinner fa-spin');    
 	            },
                
                 success:function (data) {
-                  	$('.header__search__venor button i').removeClass('fa-spinner fa-spin').addClass('fa-search'); 
+                  	$('.header__search__blacklabs button i').removeClass('fa-spinner fa-spin').addClass('fa-search'); 
                   	$('#project_list').addClass("active");   
                     $('#project_list').html(data);
                 }
@@ -345,7 +345,7 @@
               $('#project_list').html("");
           } 
       });
-      $(document).on('click', '.slider-venor-section, .header__content__venor, .breadcrumb-area, .breadcrumb-area + div', function(){
+      $(document).on('click', '.slider-blacklabs-section, .header__content__blacklabs, .breadcrumb-area, .breadcrumb-area + div', function(){
           $('#project_list').html("");
       });
 
@@ -410,10 +410,10 @@
       jQuery(window).on("scroll", function() {
           (jQuery(window).scrollTop() > 250 && jQuery(window).width() > 1200 && (
               jQuery("body").addClass("sticky"), 
-              jQuery(".header__content__venor").addClass("animated fadeInDown"
+              jQuery(".header__content__blacklabs").addClass("animated fadeInDown"
           )),           
           jQuery(window).scrollTop() < 250 && (jQuery("body").removeClass("sticky"), 
-          jQuery(".header__content__venor").removeClass("animated fadeInDown")))
+          jQuery(".header__content__blacklabs").removeClass("animated fadeInDown")))
      
       }), jQuery(window).resize(function() {
           jQuery(window).width() < 1200 && jQuery("body").removeClass("sticky") });
