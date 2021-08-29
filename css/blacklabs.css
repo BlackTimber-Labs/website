@@ -1269,7 +1269,6 @@ div#project_list.active {
 }
 
 .slider-blacklabs.owl-carousel:not(.owl-loaded) .slider-image{
-    /*background: url(/img/loading-blog.gif)  no-repeat center center;*/
     text-align: center;
     max-width: 400px;
     min-height: 450px;
@@ -2257,9 +2256,10 @@ h3.blog-section-subtitle::before {
 
 
 /* TYPED TEXT */
-.typed-section {
+/* .typed-section {
     border-top: 1px solid rgba(0,0,0,.1);
     padding: 60px 0;
+    background-color: #16151a;
 }
 .typed-section H4 {
     font-size: 34px;
@@ -2280,7 +2280,7 @@ h3.blog-section-subtitle::before {
 .typed-section span.typed-cursor {
     color: #6164ff;
     font-weight: 400;
-}
+} */
 
 /* FOOTER DIV */
 .codeless-add-purchase-button {
@@ -2465,7 +2465,8 @@ h3.blog-section-subtitle::before {
     border-top-right-radius: 6px;
 }
 .footer-section .footer-right {
-    background-image: url(../../img/pattern-2.jpg);
+    /* background-image: url(../../img/pattern-2.jpg); */
+    background-color: #16151a;
     padding: 90px 70px 150px 70px;
     width: 100%;
     background-repeat: no-repeat;
@@ -2490,7 +2491,7 @@ h3.blog-section-subtitle::before {
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-color: #000;
+    /* background-color: #000; */
     opacity: .6;
 }
 .footer-section .copyright-text {
@@ -2728,6 +2729,7 @@ a.popup-vimeo-video:hover {
 .members-section {
     padding: 60px 0 65px;
     border-bottom: 1px solid #222227;
+    background-color: #16151a;
 }
 .members-section h3.members-heading1 {
     font-size: 42px;
@@ -4207,4 +4209,39 @@ span.cookie-consent__message a:hover {
         right: inherit;
         left: 60px;
     }
+}
+
+.about-us{
+    background: url(../../img/pattern-2.jpg) repeat fixed 100%;
+    background-size: cover;
+    /* color: aliceblue; */
+}
+.parallax-1{
+    background: url(../../img/coding.jpg) repeat fixed 100%;
+    background-size: cover;
+    /* color: aliceblue; */
+}
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.parallax-inner h4{
+    font-size: 60px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: -1.28px;
+    font-weight: 500;
+    color: #fff;
+}
+ H4 span.mt_typed_text {
+    color: #6164ff;
+}
+ span.typed-cursor {
+    color: #6164ff;
+    font-weight: 400;
+}
+body{
+    background-color: #16151a;
 }
