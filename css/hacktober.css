@@ -1,0 +1,163 @@
+.rc-anchor-aria-status {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+body{
+    background-color: #16151a;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  body::-webkit-scrollbar-track {
+    background: #222227;
+  
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #bdbdbd;
+    outline: 1px solid #222227;
+     border-radius: 12px;
+  }
+  .header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    border-bottom: 1px solid #222227;
+    z-index: 101;
+}
+.header h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.fest-info{
+    height:100vh;
+    padding: 20px 30px 0px 30px;
+}
+.fest-info p,li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #bdbdbd;
+}
+.fest-info h2{
+    color: #fff;
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 5px;
+    max-width: 500px;
+}
+.fest-info h2 span{
+    color: #6164ff;
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    min-height: 52px;
+}
+.fest-info h4{
+    color: #fff;
+    line-height: 32px;
+    max-width: 500px;
+    font-size: 22px;
+}
+ a{
+    color: #6164ff;
+}
+ a:hover{
+    color: #fff
+}
+.fest-started li #profile{
+    padding-top: 30px;
+    height: 300px;
+}
+.fest-started span{
+    color: #6164ff;
+    font-size: 25px;
+}
+.fest-started h3{
+    color: #fff;
+    text-align: center;
+}
+.codeless-add-purchase-button {
+    position: fixed;
+    bottom: 100px;
+    right: 19px;
+    height: 70px;
+    background: rgba(137, 189, 73, .25);
+    border: none;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    color: #fff;
+    padding: 0;
+    padding-right: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 99;
+    font-size: 0;
+    font-weight: bold;
+    color: #fff !important;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.codeless-add-purchase-button i.icon {
+    height: 50px;
+    width: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #6164ff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 10px 0 10px 10px;
+    -webkit-transition: all cubic-bezier(.4, 0, .2, 1) .4s;
+    -o-transition: all cubic-bezier(.4, 0, .2, 1) .4s;
+    transition: all cubic-bezier(.4, 0, .2, 1) .4s;
+}
+.codeless-add-purchase-button i.icon svg {
+    height: 30px;
+    position: relative;
+    bottom: 1px;
+}
+.codeless-add-purchase-button i.icon:after {
+    content: "";
+    position: fixed;
+    display: block;
+    height: 70px;
+    width: 70px;
+    background: rgb(97 100 255 / 40%);
+    z-index: -1;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: 3s ease-in-out infinite pulse;
+    animation: 3s ease-in-out infinite pulse;
+}
+.codeless-add-purchase-button i.icon svg path {
+    fill: #fff;
+}
