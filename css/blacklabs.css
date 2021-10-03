@@ -434,6 +434,15 @@ div#project_list.active {
     fill: #6164ff;
 }
 
+
+/* active navbar */
+
+.active{
+    color: #6164ff;
+}
+
+/* active navbar */
+
 .header__nav-menu {
     display: block;
     position: absolute !important;
