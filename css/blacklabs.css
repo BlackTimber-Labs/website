@@ -4254,3 +4254,7 @@ span.cookie-consent__message a:hover {
 body{
     background-color: #16151a;
 }
+
+.parent-typed-text{
+    margin-top: 15px;
+}
