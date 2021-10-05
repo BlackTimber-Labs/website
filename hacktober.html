@@ -3,7 +3,7 @@
 <head>
 
     <!-- Page Title -->
-    <title> Hacktober Fest</title>
+    <title> HacktoberFest</title>
 
     <!-- Meta Data -->
     <meta charset="UTF-8" />
@@ -33,9 +33,6 @@
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="css/hacktober.css">
-    <!-- <link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
-    <link href="css/blacklabs.css" type="text/css" rel="stylesheet">
-    <link href="css/magnific.min.css" type="text/css" rel="stylesheet"> -->
 
      <!-- Inline Styles -->
      <style>
@@ -49,9 +46,10 @@
     
 </head>
 <body>
-    <header class="header"><h1>HACKTOBERFEST</h1></header>
+    <header class="header">
+      <h1>HACKTOBERFEST</h1></header>
     <div class="fest-info">
-    <h2>What is <span>HACKTOBERFest?</span></h2>
+    <h2>What is <span>HacktoberFest?</span></h2>
     <p>Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.</p>
     <h4>You can participate in the Hacktober Fest in the following ways: </h4>
     <p>
@@ -83,12 +81,19 @@
             </li>
             <br>
             <li>
-                Join the whatsapp group 
-                <a href="https://chat.whatsapp.com/BduZciC8Q3HEkUKX8L9PVC">WhatsApp</a>
+                Join the 
+                <a href="https://chat.whatsapp.com/BduZciC8Q3HEkUKX8L9PVC">WhatsApp group</a>
                  to get help and clear your doubts regarding this event.
+            </li>
+            <br>
+            <li>
+              Check out the 
+              <a href = https://blacktimber-labs.github.io/HacktoberFest2021/>HacktoberFest 2021 Website</a>
+              made by BlackTimberLabs to document all the developers who contributed to HacktoberFest 2021 through our repos!
             </li>
         </ul>
         <h3>Become A Part of the <a href="https://github.com/BlackTimber-Labs">Community</a> NOW!!</h3>
+        <a href="/">Back to Blacktimber</a>
         <a
       target="_blank"
       class="codeless-add-purchase-button"
@@ -113,70 +118,5 @@
     <script src="js/bootstrap.min.js" defer></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/simpleParallax.min.js" defer></script>
-    <script src="js/countTO.js" defer></script>
-    <script src="js/typed.min.js" defer></script>
-    <script src="js/shuffleLetters.js" defer></script>
-    <script src="js/tilt.jquery.min.js" defer></script>
-    <script src="js/magnific.min.js" defer></script>
-    <script src="js/blacklabs.js" defer></script>
-    <script>
-        window.laravelCookieConsent = (function () {
-          const COOKIE_VALUE = 1;
-          const COOKIE_DOMAIN = "blacktimberlabs.xyz";
-  
-          function consentWithCookies() {
-            setCookie("laravel_cookie_consent", COOKIE_VALUE, 7300);
-            hideCookieDialog();
-          }
-  
-          function cookieExists(name) {
-            return (
-              document.cookie.split("; ").indexOf(name + "=" + COOKIE_VALUE) !==
-              -1
-            );
-          }
-  
-          function hideCookieDialog() {
-            const dialogs = document.getElementsByClassName("js-cookie-consent");
-  
-            for (let i = 0; i < dialogs.length; ++i) {
-              dialogs[i].style.display = "none";
-            }
-          }
-  
-          function setCookie(name, value, expirationInDays) {
-            const date = new Date();
-            date.setTime(date.getTime() + expirationInDays * 24 * 60 * 60 * 1000);
-            document.cookie =
-              name +
-              "=" +
-              value +
-              ";expires=" +
-              date.toUTCString() +
-              ";domain=" +
-              COOKIE_DOMAIN +
-              ";path=/" +
-              ";samesite=lax";
-          }
-  
-          if (cookieExists("laravel_cookie_consent")) {
-            hideCookieDialog();
-          }
-  
-          const buttons = document.getElementsByClassName(
-            "js-cookie-consent-agree"
-          );
-  
-          for (let i = 0; i < buttons.length; ++i) {
-            buttons[i].addEventListener("click", consentWithCookies);
-          }
-  
-          return {
-            consentWithCookies: consentWithCookies,
-            hideCookieDialog: hideCookieDialog,
-          };
-        })();
-      </script>
-      
 </body>
 </html>
